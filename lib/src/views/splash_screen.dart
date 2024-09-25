@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:quadb_test/src/views/dasboard_screen.dart';
 
+/// The initial splash screen shown when the app starts.
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
 

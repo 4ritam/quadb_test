@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 
 import '../models/show.dart';
 
+/// A widget for displaying search results.
 class SearchCard extends StatelessWidget {
   final Show show;
   final VoidCallback onTap;

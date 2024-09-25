@@ -3,6 +3,7 @@ import 'package:cached_network_image/cached_network_image.dart';
 import '../models/show.dart';
 import '../views/details_screen.dart';
 
+/// A widget for displaying the featured show on the home screen.
 class LandingCard extends StatelessWidget {
   final Show show;
   const LandingCard({super.key, required this.show});

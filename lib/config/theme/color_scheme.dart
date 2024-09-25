@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 
+/// Defines the color scheme for the application.
+
+// Base colors
 const textColor = Color(0xFFd5e9f8);
 const backgroundColor = Color(0xFF091015);
 const primaryColor = Color(0xFFcfd4fd);
@@ -9,7 +12,7 @@ const secondaryFgColor = Color(0xFFd5e9f8);
 const accentColor = Color(0xFF662c8a);
 const accentFgColor = Color(0xFFd5e9f8);
 
-// ColorScheme for the whole app
+/// ColorScheme for the whole app
 const colorScheme = ColorScheme(
   brightness: Brightness.dark,
   primary: primaryColor,

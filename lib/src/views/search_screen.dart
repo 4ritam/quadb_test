@@ -5,6 +5,7 @@ import '../models/show.dart';
 import '../services/api_service.dart';
 import '../widgets/search_card.dart';
 
+/// Allows users to search for shows.
 class SearchScreen extends StatefulWidget {
   const SearchScreen({super.key});
 
@@ -19,6 +20,7 @@ class _SearchScreenState extends State<SearchScreen> {
 
   final TextEditingController _searchController = TextEditingController();
 
+  /// Performs a search based on the given query.
   void _performSearch(String query) async {
     setState(() {
       _isLoading = true;

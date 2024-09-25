@@ -2,6 +2,7 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import '../models/show.dart';
 
+/// Displays detailed information about a selected show.
 class DetailsScreen extends StatelessWidget {
   final Show show;
 

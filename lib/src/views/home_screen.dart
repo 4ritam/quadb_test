@@ -5,6 +5,7 @@ import 'package:quadb_test/src/widgets/show_card.dart';
 
 import '../services/api_service.dart';
 
+/// The home screen displaying a list of shows.
 class HomeScreen extends StatefulWidget {
   final VoidCallback searchCallback;
   const HomeScreen({super.key, required this.searchCallback});

@@ -1,5 +1,6 @@
 import 'package:quadb_test/config/extentions/html_clean.dart';
 
+/// Represents a TV show with its details.
 class Show {
   const Show({
     required this.id,
@@ -21,6 +22,7 @@ class Show {
   final String yearOfRelease;
   final String summary;
 
+  /// Represents a TV show with its details.
   factory Show.fromJson(Map<String, dynamic> show) {
     return Show(
       id: show['id'],

@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'home_screen.dart';
 import 'search_screen.dart';
 
+/// The main dashboard screen containing the bottom navigation.
 class DashboardScreen extends StatefulWidget {
   const DashboardScreen({super.key});
 

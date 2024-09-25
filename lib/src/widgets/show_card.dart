@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 
 import '../models/show.dart';
 
+/// A widget for displaying individual shows in the list.
 class ShowCard extends StatelessWidget {
   final Show show;
   final VoidCallback onTap;
